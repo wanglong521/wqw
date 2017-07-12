@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity  {
         ArrayList<String> grouplist=new ArrayList<>();
         //
         ArrayList<ArrayList<String>>  childlist=new ArrayList<>();
-        grouplist.add("第一组");
         grouplist.add("第二组");
         grouplist.add("第三组");
         ArrayList<String> templist   =new ArrayList<>();
