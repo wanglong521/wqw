@@ -2,6 +2,7 @@ package com.example.admin.aaa;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListView;
 
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity  {
         for (int i=0;i<templist.size();i++){
             childlist.add(templist);
         }
+        Log.e("TAG", "initData: "+"s" );
         MyAdapter my=new MyAdapter(grouplist,childlist,MainActivity.this);
         myexpadlist.setAdapter(my);
     }
